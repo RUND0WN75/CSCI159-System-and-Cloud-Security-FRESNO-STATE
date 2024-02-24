@@ -1,1 +1,9 @@
+In this lab, you will implement the RSA algorithm. Parameter p and q should be provided as a command line argument or read as an input from the program prompt. Then, choose the smallest e such that it has no common factor (except 1) with z, as well as the smallest d such that ed-1 is divisible by z. Please refer to the textbook or notes for detailed steps for the algorithm.
 
+Then, your program should ask for a random "alphabetic only" phrase from the user and show its encrypted chiper. Then, it performs the decryption process and verifies that the result matches the original plaintext.
+
+Note:
+Alphabetic letters are converted to its corresponding ASCII value, not the position in the alphabetic table.
+Perform the modulo operations as early as possible. For example, (a*b)%n can be performed as a=a%n, then (a*b)%n.
+Use long long or appropriate type for integers.
+You can use any programming languages as long as it's easy to execute by the instructor. A demo will be otherwise required.
