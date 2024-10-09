@@ -1,0 +1,4 @@
+Description: you classify users to 4 levels (public, limited, secret, top secret). You have 50 files on the
+disk, whose security level is also classified randomly. Then, you assign the security level of each file
+according to the same level. When a user login, you can show only those files that he/she has access
+to. You should use an appropriate model for your application.
